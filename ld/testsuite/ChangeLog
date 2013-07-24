@@ -1,3 +1,13 @@
+2013-07-24  H.J. Lu  <hongjiu.lu@intel.com>
+
+	PR ld/15762
+	* ld-elf/shared.exp (build_tests): Check .gnu.warning section
+	in the libbarw.so library.
+	* ld-elf/libbarw.rd: New.
+
+	* lib/ld-lib.exp (run_cc_link_tests): Support checking on
+	output with warning message.
+
 2013-05-31  H.J. Lu  <hongjiu.lu@intel.com>
 
 	* ld-i386/pr12718.d: Updated for text/data/bss section alignment
