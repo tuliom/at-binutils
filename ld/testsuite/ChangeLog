@@ -1,3 +1,7 @@
+2013-12-12  H.J. Lu  <hongjiu.lu@intel.com>
+
+	* ld-elf/ehdr_start-userdef.d: Add "#...".
+
 2013-11-19  Roland McGrath  <mcgrathr@google.com>
 
 	* ld-elf/ehdr_start-userdef.t: New file.
