@@ -1,3 +1,8 @@
+2014-01-15  Alan Modra  <amodra@gmail.com>
+
+	* emultempl/elf32.em (gld${EMULATION_NAME}_before_allocation): Define
+	__ehdr_start before size_dynamic_sections and restore afterwards.
+
 2013-11-19  Roland McGrath  <mcgrathr@google.com>
 	    Alan Modra  <amodra@gmail.com>
 
